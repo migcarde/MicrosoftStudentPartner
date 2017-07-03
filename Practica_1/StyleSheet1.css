@@ -1,0 +1,245 @@
+﻿body {
+    font-family: "Segoe UI","wf_segoe-ui_normal","Arial",sans-serif;
+    padding: 0px;
+    font-size: 12px;
+    margin: 0px;
+}
+
+label {
+    float:left;
+    width:24%;
+    text-align:left;
+    font-weight:bold;
+}
+
+input {
+	font-size: 12px;
+	width: 94%;
+    padding: 10px;
+    background: white;
+    border: 2px solid #1E90FF;
+	margin: 1.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img.Logo{
+    height: 40px;
+    width: 40px;    
+    float: left;
+}
+
+img.Pasos {
+    margin-bottom: 1%;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
+
+div.Enlace {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+
+div.Logo{
+    margin: 0px;
+    padding: 0px;
+}
+
+div.Tarjeta {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0
+		rgba(0, 0, 0, 0.19);
+    padding: 0.5%;
+    margin: 1%;
+}
+
+p {
+    font-size: 15px;
+    font-family: "Segoe UI","wf_segoe-ui_normal","Arial",sans-serif;
+    margin-left: 2%;
+}
+
+p.Titulo {
+    font-size: 30px;
+    margin: 1%;
+    color: #ffffff;
+    text-align: left;
+}
+
+p.Presentacion {
+    font-size: 18px;
+    margin-left: 1.5%;
+}
+
+p.Descripcion {
+    font-size: 18px;
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+p.Cabecera {
+
+}
+
+#Cabecera {
+    background-color: #1E90FF;;
+    margin: 0px auto;
+    padding: 1px;
+}
+
+#Izquierda {
+    float: left;
+}
+
+#How {
+    border: none;
+    width: 150px;
+    padding: 2.5%;
+    float: left;
+    border: 1px solid blue;
+    border-color: #FFFFFF;
+    background-color: #1E90FF;
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+
+#How:active {
+    bottom: -5px;
+    transition: all 0.10s linear;
+    -webkit-transition: all 0.10s linear;
+    box-shadow:0 0 0 #0491a5, inset 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#How:focus {
+    outline:0px;
+}
+
+#How:hover {
+    
+    -webkit-transition: all 0.10s linear;
+    -moz-transition: all 0.10s linear;
+    border: 1px solid #1E90FF;
+    background-color: #FFFFFF;
+    color: #1E90FF;
+}
+
+#Enviar {
+    border: none;
+    width: 150px;
+    padding: 2.5%;
+    float: right;
+    border: 1px solid #1E90FF;
+    background-color: #FFFFFF;
+    color: #1E90FF;
+}
+
+#Enviar:active {
+    bottom: -5px;
+    transition: all 0.10s linear;
+    -webkit-transition: all 0.10s linear;
+    box-shadow:0 0 0 #0491a5, inset 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#Enviar:focus {
+    outline:0px;
+}
+
+#Enviar:hover {
+    
+    -webkit-transition: all 0.10s linear;
+    -moz-transition: all 0.10s linear;
+    border: 1px solid blue;
+    border-color: #FFFFFF;
+    background-color: #1E90FF;
+    color: #FFFFFF;
+}
+
+#Derecha {
+    float: right;
+    margin: 1.5%;
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+    background: white;
+    border: 2px solid #1E90FF;
+    display: inline-block;
+}
+
+#PanelDerecho {
+    animation: none;
+    width: 50%;
+    height: 100%;
+    float: right;
+    margin-right: 2%;
+}
+
+#Resultado {
+    font-size: 25px;
+    margin: 0px;
+    text-align: left;
+    display: block;
+    margin-top: 5%;
+}
+
+#TextoModificado {
+    font-size: 25px;
+    margin: 0px;
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    
+
+    #Izquierda{
+        width: 100%;
+        text-align: center;
+    }
+
+    #PanelDerecho {
+        width: 80%;
+    }
+    #Derecha {
+        width: 80%;
+        float: left;
+    }
+
+    #Resultado {
+        padding-left: 4%;
+    }
+
+    input {
+        width: 80%;
+    }
+    p {
+        margin: 10px;
+    }
+
+    #Enviar, #How {
+        width: 80%;
+        margin: 0px;
+        margin-bottom: 1%;
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

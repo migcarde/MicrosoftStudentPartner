@@ -37,6 +37,16 @@ img.Pasos {
     float: none;
     margin-left: auto;
     margin-right: auto;
+    width: 40%;
+    height: 40%;
+}
+
+img.PasoFinal {
+    margin-bottom: 1%;
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%;
     height: 80%;
 }
@@ -95,6 +105,7 @@ p.Cabecera {
 
 #Izquierda {
     float: left;
+    margin-left: 2%;
 }
 
 #How {
@@ -102,31 +113,10 @@ p.Cabecera {
     width: 150px;
     padding: 2.5%;
     float: left;
-    border: 1px solid blue;
-    border-color: #FFFFFF;
-    background-color: #1E90FF;
-    color: #FFFFFF;
-    margin-left: 5%;
-}
-
-#How:active {
-    bottom: -5px;
-    transition: all 0.10s linear;
-    -webkit-transition: all 0.10s linear;
-    box-shadow:0 0 0 #0491a5, inset 0 0 5px rgba(0, 0, 0, 0.4);
-}
-
-#How:focus {
-    outline:0px;
-}
-
-#How:hover {
-    
-    -webkit-transition: all 0.10s linear;
-    -moz-transition: all 0.10s linear;
-    border: 1px solid #1E90FF;
+    border: 1px solid #1E90FF;x
     background-color: #FFFFFF;
     color: #1E90FF;
+    margin-left: 5%;
 }
 
 #Enviar {
@@ -139,18 +129,18 @@ p.Cabecera {
     color: #1E90FF;
 }
 
-#Enviar:active {
+#Enviar:active, #How:active {
     bottom: -5px;
     transition: all 0.10s linear;
     -webkit-transition: all 0.10s linear;
     box-shadow:0 0 0 #0491a5, inset 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
-#Enviar:focus {
+#Enviar:focus, #How:focus {
     outline:0px;
 }
 
-#Enviar:hover {
+#Enviar:hover, #How:hover {
     
     -webkit-transition: all 0.10s linear;
     -moz-transition: all 0.10s linear;
@@ -212,6 +202,7 @@ p.Cabecera {
     #Izquierda{
         width: 100%;
         text-align: center;
+        margin: auto;
     }
 
     #PanelDerecho {

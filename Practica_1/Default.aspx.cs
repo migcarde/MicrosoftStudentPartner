@@ -27,11 +27,11 @@ namespace Practica_1
             {
                 if (String.IsNullOrWhiteSpace(Columnas.Text) == true) //En el caso de que el campo esté vacío
                 {
-                    TextoModificado.Text = "No se han introducido las columnas en las que se ha de dividir el texto"; //Se le informa al usuario que ha de rellenarlo
+                    TextoModificado.Text = "No se han introducido las columnas en las que se ha de dividir el texto."; //Se le informa al usuario que ha de rellenarlo
                 }
                 else //Si no está vacío significa que el número es demasiado grande
                 {
-                    TextoModificado.Text = "El número introducido es demasiado grande, por favor, introduzca uno más pequeño"; //Informa al usuario que el número de columnas es demasiado grande
+                    TextoModificado.Text = "El número introducido es demasiado grande, por favor, introduzca uno más pequeño."; //Informa al usuario que el número de columnas es demasiado grande
                 }
             }
             else //Si ha rellenado los campos correctamente

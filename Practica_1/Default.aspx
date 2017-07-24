@@ -21,19 +21,16 @@
                 </p>
             </a>
         </div>
-        <div id ="Izquierda"> <!-- Espacio donde se encuentran los datos que ha de introducir el usuario -->
+        <div id="Izquierda"> <!-- Espacio donde se encuentran los datos que ha de introducir el usuario -->
             <p>Introduzca el texto
             </p>
             <p>
-                
                 <asp:TextBox ID="Texto" runat="server" OnTextChanged="TextBox1_TextChanged" required="required"></asp:TextBox> <!-- TextBox que recoge el texto introducido por el usuario -->
-  
             </p>
             <p>Introduzca las columnas que debe contener cada parte del texto</p>
             <p>
                 <asp:TextBox ID="Columnas" runat="server" CssClass="nuevoEstilo2" MaxLength="15" required="required"></asp:TextBox> <!--TextBox que recoge el número de columnas indicadas por el usuario -->
             </p>
-
             <asp:Button ID="Enviar" runat="server" OnClick="Button1_Click" Text="Enviar" /> <!-- Botón con el que se inicia la función "Buttón1_Click" -->
             <asp:Button ID="How" runat="server" OnClick="Button2_Click" Text="Guía" formnovalidate="formnovalidate"/>  <!-- Botón que redirige al usuario a una guía de uso de la página -->
         </div>
@@ -44,9 +41,6 @@
                 </div>
         </asp:Panel>
     </form>
-    
-    <p>
-        &nbsp;</p>
     
 </body>
 </html>

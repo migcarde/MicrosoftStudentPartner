@@ -31,7 +31,7 @@ namespace Practica_1
                 }
                 else //Si no está vacío significa que el número es demasiado grande
                 {
-                    TextoModificado.Text = "El número introducido es demasiado grande, por favor, introduzca uno más pequeño."; //Informa al usuario que el número de columnas es demasiado grande
+                    TextoModificado.Text = "El número introducido es demasiado grande o ha introducido algún carácter que es una letra, por favor, introduzca uno más pequeño o introduzca el valor correctamente."; //Informa al usuario que el número de columnas es demasiado grande
                 }
             }
             else //Si ha rellenado los campos correctamente
